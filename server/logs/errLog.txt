@@ -1,0 +1,15 @@
+20251129	22:08:13	a077e958-3fe5-49dc-afb3-19f03dedadb7	ReferenceError: __dirname is not defined
+20251129	22:10:59	087c69a0-8685-4369-be65-99082fed1ba8	ReferenceError: __dirname is not defined
+20251130	00:05:21	d4ad2367-81c4-4f4a-88cb-f22f4fda8c74	TypeError: User.findOne is not a function
+20251130	15:41:57	09ee18b5-a301-4938-97e9-10296e653c88	TypeError: Cannot read properties of undefined (reading 'findOne')
+20251130	15:42:06	754e2e7c-6522-459b-9648-1cd1bd72c4c0	TypeError: Cannot read properties of undefined (reading 'findOne')
+20251130	18:04:14	671fb624-aa12-4485-ab4d-6ef8d194cc1f	ReferenceError: User is not defined
+20251130	18:05:31	89f830b2-8162-4993-9813-44f99840f22d	ReferenceError: User is not defined
+20251130	18:07:01	ea010f64-c404-4ae9-9b23-86c8434f5680	ReferenceError: User is not defined
+20251130	18:08:17	65dad52a-d08e-4585-9957-97db435cfb0b	SequelizeDatabaseError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpYXQiOjE3' at line 1
+20251130	18:13:13	a8a3f5b6-3e94-4082-862e-b5af1ec8f2d7	ReferenceError: Users is not defined
+20251130	18:13:57	b36ddba9-89bc-4cca-a4fa-bd20d5c4d60c	TypeError: Cannot read properties of undefined (reading 'findOne')
+20251130	18:17:36	20f91513-09dc-4f6f-9850-02b38a24b570	TypeError: Cannot read properties of undefined (reading 'findAll')
+20251130	18:27:50	c7cf8e76-fbe7-4fe8-9ff3-2f983004e826	TypeError: Cannot read properties of undefined (reading 'findOne')
+20251130	18:27:50	40e8139e-f70c-4ac7-9c4e-6dd25c07a55f	TypeError: Cannot read properties of undefined (reading 'findOne')
+20251130	22:30:47	791815d7-a028-48f4-827f-60b5322904f7	TypeError: Cannot read properties of undefined (reading 'findAll')
