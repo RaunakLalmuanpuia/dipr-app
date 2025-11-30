@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Users from './Users';
+import Users from '../../pages/backend/Users';
 
 const Admin = () => {
     return (

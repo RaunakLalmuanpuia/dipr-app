@@ -6,11 +6,11 @@ import Register from '../src/pages/frontend/auth/Register'
 import Login from '../src/pages/frontend/auth/Login'
 import RequireAuth from "../src/components/RequireAuth"
 import PersistLogin from "../src/components/PersistLogin"
-import Admin from "../src/components/Admin.jsx"
-import Editor from "../src/components/Editor"
+import Admin from "../src/pages/backend/Admin"
+import Editor from "../src/pages/backend/Editor"
 import Home from "../src/components/Home"
 import LinkPage from "../src/components/LinkPage"
-import Lounge from "../src/components/Lounge"
+import Lounge from "../src/pages/backend/Lounge"
 import Missing from "../src/components/Missing"
 import Unauthorized from "../src/components/Unauthorized"
 
