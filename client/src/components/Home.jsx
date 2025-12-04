@@ -1,32 +1,41 @@
-import { useNavigate, Link } from "react-router-dom";
-import useLogout from "../hooks/useLogout";
-
+import AppAppBar from "../components/AppAppBar.jsx";
+import Footer from "../components/Footer";
+import CssBaseline from "@mui/material/CssBaseline";
+import Container from "@mui/material/Container";
+import Typography from '@mui/material/Typography';
+import React from "react";
+import MainContent from "../components/home/MainContent";
+import Latest from "../components/home/Latest";
 const Home = () => {
-    const navigate = useNavigate();
-    const logout = useLogout();
-
-    const signOut = async () => {
-        await logout();
-        navigate('/');
-    }
 
     return (
-        <section>
-            <h1>Home</h1>
-            <br />
-            <p>You are logged in!</p>
-            <br />
-            <Link to="/editor">Go to the Editor page</Link>
-            <br />
-            <Link to="/admin">Go to the Admin page</Link>
-            <br />
-            <Link to="/lounge">Go to the Lounge</Link>
-            <br />
-            <Link to="/linkpage">Go to the link page</Link>
-            <div className="flexGrow">
-                <button onClick={signOut}>Sign Out</button>
-            </div>
-        </section>
+        <>
+        <CssBaseline enableColorScheme />
+            <AppAppBar />
+
+            <Container
+                maxWidth="lg"
+                component="main"
+                sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    my: 5,
+                    gap: 4,
+                }}
+            >
+                {/* Pages will appear here */}
+                    <br/>
+                   <MainContent/>
+                <br/>
+                    <Latest/>
+
+            </Container>
+
+
+            <Footer />
+
+
+        </>
     )
 }
 

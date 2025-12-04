@@ -83,8 +83,12 @@ export default function AppAppBar() {
                             alignItems: 'center',
                         }}
                     >
-                        <Button color="primary" variant="text" size="small">Sign in</Button>
-                        <Button color="primary" variant="contained" size="small">Sign up</Button>
+                        <Button color="primary" variant="text" size="small"  onClick={() => {
+                            navigate('/login');
+                        }}>Sign in</Button>
+                        <Button color="primary" variant="contained" size="small" onClick={() => {
+                            navigate('/register');
+                        }}>Sign up</Button>
                     </Box>
 
                     {/* Mobile Menu */}
